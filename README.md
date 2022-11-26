@@ -10,15 +10,11 @@ The Database was first created in Excel and exported as a Comma Separated Value 
 It was then imported into SQLite.
 
 In QT the initial step involves loading the correct Driver for SQLite and then assigning our database file
-to our Database itself.
-
-We then construct an initial query to display the entire contents of our Database to a Query Model which is then
+to our Database itself. We then construct an initial query to display the entire contents of our Database to a Query Model which is then
 loaded into the List View.
 
 The Add, Update, Delete and Clear Buttons are all coded to read the information in the edit fields and use them to
-perform those operations.
-
-Clicking on the name fields in the List View causes that record to populate the edit fields for later updates or deletion.
+perform those operations. Clicking on the name fields in the List View causes that record to populate the edit fields for later updates or deletion.
 
 Finally, the filter edit field at the bottom allows only field with a matching Class Type to be displayed and it does this
 by using the SQL Select Syntax.
